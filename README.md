@@ -1,9 +1,9 @@
 <img src="./assets/logo.webp" style="width:100%; object-fit:cover;"/>
 
-![Discord](https://img.shields.io/discord/829038891611717753?label=Tesseract%20Coding)
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.tesseractcoding.tech%2F)
-![GitHub issues](https://img.shields.io/github/issues/TesseractCoding/Ric-Bot)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/TesseractCoding/Ric-bot)
+[![Discord](https://img.shields.io/discord/829038891611717753?label=Tesseract%20Coding)](http://bit.ly/TCDiscordInvite)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.tesseractcoding.tech%2F)](https://www.tesseractcoding.tech/)
+[![GitHub issues](https://img.shields.io/github/issues/TesseractCoding/Ric-Bot)](https://github.com/TesseractCoding/Ric-Bot/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/TesseractCoding/Ric-bot)](https://github.com/TesseractCoding/Ric-Bot/pulls)
 
 A Discord bot completely written to be taken from the source and built 
 according to your own custom needs. 
@@ -54,7 +54,7 @@ image for the same.
     After doing so run the following command.
 
 ```
-docker run --env-file .env -it --rm --name ric-bot-running ric-bot-im
+docker run --env-file .env -it --rm --name ric-bot-running ric-bot-image
 ```
 
 The above command 
