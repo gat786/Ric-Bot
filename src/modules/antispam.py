@@ -1,10 +1,32 @@
 """
 This module implements the antispam feature for the bot.
 
-Functions: has_links(message)
+Classes: AntiSpam
+Functions: 
+    has_links(message)
+    setup(client)
 """
 
 from re import search
+from discord.ext import commands
+
+
+class AntiSpam(commands.Cog):
+    def __init__(self, client) -> None:
+        self.client = client
+
+    @commands.Cog.listener()
+    async def on_message(self, message):
+        if has_links(message):
+            await message.delete()
+            await message.channel.send(
+                "Links not allowed in this channel", delete_after=15
+            )
+
+
+def setup(client):
+    client.add_cog(AntiSpam(client))
+
 
 links_not_allowed = (
     829038892145311775,

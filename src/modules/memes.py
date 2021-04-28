@@ -1,10 +1,29 @@
 """
 This module implements the random meme generator.
 
-Function: get_memes()
+Classes: Memes
+Function: 
+    get_memes()
+    setup(client)
 """
 import random
 from .settings import loadReddit, getPostLimit, getSubreddits
+from discord.ext import commands
+
+
+class Memes(commands.Cog):
+
+    def __init__(self, client) -> None:
+        self.client = client
+
+    @commands.command()
+    async def memes(self, ctx):
+        """Handles memes command"""
+        await ctx.send(await get_memes())
+
+
+def setup(client):
+    client.add_cog(Memes(client))
 
 
 async def get_memes() -> str:

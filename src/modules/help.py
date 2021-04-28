@@ -1,8 +1,23 @@
+from discord.ext import commands
 """
 This module implements the help command for the bot.
 
-Functions: help()
+Classes: Help
+Functions: 
+    help()
+    setup(client)
 """
+
+
+class Help(commands.Cog):
+
+    def __init__(self, client) -> None:
+        self.client = client
+
+    @commands.command()
+    async def help(self, ctx):
+        """Handles help command"""
+        await ctx.send(help())
 
 
 def help() -> str:
@@ -13,7 +28,11 @@ def help() -> str:
     return """
 commands
     !help:\t Help menu
-    ping:\t Replies with pong
+    !ping:\t Replies with pong and latency
     !memes:\t Fetchs a random meme from reddit
     !quotes:\t Displays a quote
 """
+
+
+def setup(client):
+    client.add_cog(Help(client))

@@ -1,9 +1,27 @@
 """
 This module implements the random quote generator.
 
-Functions: getQuote()
+Classes: Quotes
+Functions: 
+    getQuote()
+    setup(client)
 """
 import random
+from discord.ext import commands
+
+
+class Quotes(commands.Cog):
+
+    def __init__(self, client) -> None:
+        self.client = client
+
+    @commands.command()
+    async def quotes(self, ctx):
+        await ctx.send(getQuote())
+
+
+def setup(client):
+    client.add_cog(Quotes(client))
 
 
 def getQuote() -> str:
