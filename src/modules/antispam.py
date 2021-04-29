@@ -47,7 +47,7 @@ def has_links(message) -> bool:
     if (
         search(url_regex, message.content)
         and message.channel.id in links_not_allowed
-        and allowed_url not in message.content
+        and not message.content.startswith(allowed_url)
     ):
         return True
     return False
