@@ -1,6 +1,6 @@
 <img src="./assets/logo.webp" style="width:100%; object-fit:cover;"/>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Discord](https://img.shields.io/discord/829038891611717753?label=Tesseract%20Coding)](http://bit.ly/TCDiscordInvite)
@@ -81,6 +81,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://www.iamprins.com"><img src="https://avatars.githubusercontent.com/u/54654484?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ricardo Prins</b></sub></a><br /><a href="https://github.com/TesseractCoding/Ric-Bot/commits?author=ricardoprins" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/kamaldgrt/"><img src="https://avatars.githubusercontent.com/u/43444282?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kamal Sharma</b></sub></a><br /><a href="https://github.com/TesseractCoding/Ric-Bot/commits?author=KamalDGRT" title="Code">💻</a> <a href="https://github.com/TesseractCoding/Ric-Bot/commits?author=KamalDGRT" title="Documentation">📖</a></td>
   </tr>
 </table>
 
