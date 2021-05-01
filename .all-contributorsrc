@@ -41,6 +41,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "gat786",
+      "name": "Ganesh Tiwari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22629774?v=4",
+      "profile": "http://gats.dev",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

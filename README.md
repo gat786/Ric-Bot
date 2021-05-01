@@ -1,6 +1,6 @@
 <img src="./assets/logo.webp" style="width:100%; object-fit:cover;"/>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Discord](https://img.shields.io/discord/829038891611717753?label=Tesseract%20Coding)](http://bit.ly/TCDiscordInvite)
@@ -84,6 +84,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.linkedin.com/in/kamaldgrt/"><img src="https://avatars.githubusercontent.com/u/43444282?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kamal Sharma</b></sub></a><br /><a href="https://github.com/TesseractCoding/Ric-Bot/commits?author=KamalDGRT" title="Code">💻</a> <a href="https://github.com/TesseractCoding/Ric-Bot/commits?author=KamalDGRT" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/adnan007d"><img src="https://avatars.githubusercontent.com/u/53809439?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Adnan Mansuri</b></sub></a><br /><a href="https://github.com/TesseractCoding/Ric-Bot/commits?author=adnan007d" title="Code">💻</a></td>
     <td align="center"><a href="https://anushkrishnav.rocks/"><img src="https://avatars.githubusercontent.com/u/54374648?v=4?s=100" width="100px;" alt=""/><br /><sub><b>A N U S H</b></sub></a><br /><a href="https://github.com/TesseractCoding/Ric-Bot/commits?author=anushkrishnav" title="Code">💻</a></td>
+    <td align="center"><a href="http://gats.dev"><img src="https://avatars.githubusercontent.com/u/22629774?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ganesh Tiwari</b></sub></a><br /><a href="https://github.com/TesseractCoding/Ric-Bot/commits?author=gat786" title="Code">💻</a> <a href="https://github.com/TesseractCoding/Ric-Bot/commits?author=gat786" title="Documentation">📖</a></td>
   </tr>
 </table>
 
