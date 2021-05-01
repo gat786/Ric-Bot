@@ -23,6 +23,15 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "adnan007d",
+      "name": "Adnan Mansuri",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53809439?v=4",
+      "profile": "https://github.com/adnan007d",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
