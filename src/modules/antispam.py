@@ -8,6 +8,7 @@ Functions:
 """
 
 from re import search
+import discord
 from discord.ext import commands
 
 
@@ -18,10 +19,16 @@ class AntiSpam(commands.Cog):
     @commands.Cog.listener()
     async def on_message(self, message):
         if has_links(message):
-            await message.delete()
             await message.channel.send(
-                "Links not allowed in this channel", delete_after=15
+                f"{message.author.mention} Links not allowed in this channel", delete_after=15
             )
+            try:
+                await message.delete()
+            except discord.errors.Forbidden as e:
+                await message.reply(
+                    "`Link found but not enough permissions available to delete the message.`\n" +
+                    "`Try inviting the bot with administrator permission.`"
+                )
 
 
 def setup(client):

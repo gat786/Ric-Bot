@@ -29,7 +29,7 @@ class Discord(commands.Bot):
         """Loads the cogs that handles individual commands"""
         # Hard code can be avoided, I'll move the cogs files into a folder named cogs
         # And use os.listdir() to load the modules
-        cogs = ['help', 'memes', 'quotes', 'antispam', 'ping']
+        cogs = ['help', 'memes', 'quotes', 'antispam', 'ping', 'offensive']
         for cog in cogs:
             self.load_extension(f'modules.{cog}')
 
